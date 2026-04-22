@@ -26,13 +26,33 @@ Esses erros frequentemente só aparecem em produção — quando dados que estav
 
 | Arquivo | Conteúdo |
 |---|---|
-| `references/gson-java21.md` | Guia completo de migração do Gson para Java 21, com `GsonConfig` completo e 4 TypeAdapters |
-| `references/module-system.md` | Referência técnica do JPMS: linha do tempo, pacotes bloqueados, `--add-opens`, ferramentas de detecção |
+| `skills/java-module-reflection-guard/references/gson-java21.md` | Guia completo de migração do Gson para Java 21, com `GsonConfig` completo e 4 TypeAdapters |
+| `skills/java-module-reflection-guard/references/module-system.md` | Referência técnica do JPMS: linha do tempo, pacotes bloqueados, `--add-opens`, ferramentas de detecção |
 
-## Instalação
+## Instalação via Marketplace (recomendado)
+
+**1. Registrar o marketplace** — adicione em `~/.claude/settings.json`:
+
+```json
+"extraKnownMarketplaces": {
+  "juracisantos-skills": {
+    "source": {
+      "source": "github",
+      "repo": "juracisantos/java-module-reflection-guard"
+    }
+  }
+}
+```
+
+**2. Instalar o plugin** — numa sessão do Claude Code:
+
+```
+/plugin install java-module-reflection-guard@juracisantos-skills
+```
+
+## Instalação manual (alternativa)
 
 ```bash
-# Clone diretamente no diretório de skills do Claude Code
 git clone https://github.com/juracisantos/java-module-reflection-guard ~/.claude/skills/java-module-reflection-guard
 ```
 

@@ -1,0 +1,12 @@
+{
+  "name": "java-module-reflection-guard",
+  "description": "Detecta e corrige problemas de compatibilidade do Java Module System (JPMS) durante migrações de versão",
+  "version": "1.0.0",
+  "author": {
+    "name": "Juraci Alves dos Santos",
+    "email": "juracisantos@gmail.com"
+  },
+  "homepage": "https://github.com/juracisantos/java-module-reflection-guard",
+  "repository": "https://github.com/juracisantos/java-module-reflection-guard",
+  "license": "MIT"
+}

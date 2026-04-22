@@ -1,0 +1,20 @@
+{
+  "name": "juracisantos-skills",
+  "owner": {
+    "name": "Juraci Alves dos Santos",
+    "email": "juracisantos@gmail.com"
+  },
+  "metadata": {
+    "description": "Personal Claude Code skills",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "java-module-reflection-guard",
+      "description": "Detecta e corrige problemas de compatibilidade do Java Module System (JPMS) durante migrações de versão",
+      "source": "./",
+      "strict": false,
+      "skills": ["./skills/java-module-reflection-guard"]
+    }
+  ]
+}
