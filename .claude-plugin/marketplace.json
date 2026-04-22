@@ -11,7 +11,8 @@
   "plugins": [
     {
       "name": "java-module-reflection-guard",
-      "description": "Detecta e corrige problemas de compatibilidade do Java Module System (JPMS) durante migrações de versão"
+      "description": "Detecta e corrige problemas de compatibilidade do Java Module System (JPMS) durante migrações de versão",
+      "source": "./"
     }
   ]
 }
