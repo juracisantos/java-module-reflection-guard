@@ -8,5 +8,6 @@
   },
   "homepage": "https://github.com/juracisantos/java-module-reflection-guard",
   "repository": "https://github.com/juracisantos/java-module-reflection-guard",
-  "license": "MIT"
+  "license": "MIT",
+  "skills": ["./skills/java-module-reflection-guard"]
 }
